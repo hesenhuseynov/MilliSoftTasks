@@ -269,10 +269,17 @@ border-top: solid;
 }
 
 .card{
+    margin-left: 300px;
+     box-shadow: inset;
+     border: 2px solid ;
+      width: 410px;
+     box-shadow: 4px 3px 4px 3px rgb(238, 225, 225);
+}
+.cardphoto{
 
 }
 
-.photo
+
 
 
  
