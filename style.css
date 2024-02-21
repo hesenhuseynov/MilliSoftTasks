@@ -1,0 +1,287 @@
+.lorem{
+    background-color:aquamarine;
+    width:auto;
+    height: 100px;
+    margin-top: 60px;
+    
+
+          
+}
+.lorem2{
+    background-color: aquamarine;
+    text-align: center;
+}
+.lorem3{
+    background-color: aquamarine;
+    text-align: right;
+}
+.lorem4{
+    background-color: aquamarine;
+    text-align: left;
+    justify-content:center ;
+
+}
+.lorem5{
+    background-color: aqua;
+    justify-content: left;
+
+}
+
+ 
+
+
+.main {
+          font-weight: bolder;
+          text-align: center;
+    padding: 0; 
+    margin: 0;
+    height: 100%;
+
+
+}
+
+
+.main  p {
+        padding: 20px;
+        display: block;
+        margin: 0; 
+        height: 100%;
+         background-color: rgb(203, 211, 207); 
+    margin-top: 20px;
+    
+}
+
+
+.txt1,.txt2,.txt3,.txt4,.txt5,.txt6{
+    background-color: antiquewhite;
+
+}
+
+.txt1{
+    
+          width: auto;
+          border: 1px solid  ;
+          border-color: aliceblue;
+
+}
+.txt2{
+       margin-top: 9px;
+    border:2px solid;
+    border-color: blue;
+    font-style: italic;
+
+    
+
+
+}
+.txt3{
+   margin-top: 9px;
+   text-decoration:line-through;
+   border:5px dotted gray;
+    
+}
+.txt4{
+    margin-top: 9px;
+    border:6px dashed grey;
+    text-decoration: overline;
+
+}
+.txt5{
+
+        margin-top:9px ;
+    border: thick   double  gray ;
+    text-decoration: underline;
+
+    
+
+}
+.txt6{
+    margin-top:9px ;
+    border-color: rgb(161, 39, 185) rgba(252, 228, 12, 0.733) brown rgb(56, 40, 202);
+    border-style: solid;
+    border-width: 3px;
+
+}
+.txt7{
+     margin-top: 14px;
+    border-width: 0px 3px 3px 3px ;
+    border-style: Solid dashed double dotted;
+    border-color: gray blue yellow brown;
+
+}
+
+.navlist{
+     margin-top: 20px;
+    width: 130px;
+    height:200px;
+    background-color: rgba(39, 98, 206, 0.705);
+     
+}
+
+
+.underline{
+    border-bottom: 1px solid #000000; width: 100px;padding-right: 5px;
+}
+
+.boxthree{
+    margin: 0;
+    padding: 0;
+
+    
+
+
+}
+
+.boxthree p {
+    width: 190px;
+    height: 21px;
+    text-align: center;
+    padding: 8px 0 ;
+}
+
+.boxthree p:nth-child(1){
+     
+  border:2px solid rgb(104, 104, 35)
+}
+
+.boxthree p:nth-child(2){
+     margin-left: 110px  ;
+  border:2px dotted rgb(104, 104, 35)
+}
+
+.boxthree p:nth-child(3){
+     margin-left: 240px  ;
+  border:2px dashed rgb(104, 104, 35)
+}
+
+.boxthree p:nth-child(4){
+     margin-left: 340px  ;
+  border: 2px rgb(104, 104, 35);
+border-bottom: double;  
+border-left:double;
+border-right: double;
+border-top: solid;
+}
+
+.tableclass{
+    text-align: center;
+}
+
+.tableclass tr{
+    height: 46px;
+}
+
+.tbody tr:nth-child(2n+1){
+    background-color: rgb(212, 209, 209);
+}
+.fiqures{
+    margin-top: 50px;
+}
+
+ .fiqures p{
+    display: inline-block;
+    width: 160px;
+    height: 160px;
+    background-color: bisque;
+    
+ }
+
+ .fiqures p:nth-child(1){
+   border-radius: 5px 5px 5px 5px;
+
+ }
+  .fiqures p:nth-child(2){
+   border-radius:15px  0px 15px 0px;
+
+ }
+  .fiqures p:nth-child(3){
+   border-radius:60px  60px 0px 5px;
+
+ }
+  .fiqures p:nth-child(4){
+   border-radius:160px  0px 0px 0px ;
+
+ }
+   .fiqures p:nth-child(6){
+   border-radius: 0px 70px 0px 70px ;
+
+ }
+  .fiqures p:nth-child(7){
+   border-radius: 0px 140px 0px 140px ;
+
+ }
+  .fiqures p:nth-child(8){
+   border-radius: 70px 70px 0px 70px ;
+
+ }
+  .fiqures p:nth-child(9){
+   border-radius: 90px 90px 90px 90px ;
+
+ }
+ .section{
+    width: 70%;
+    margin-left: 80px ;
+
+ }
+
+
+
+ .header{
+    background-color: rgb(187, 187, 228);
+    width: auto;
+    height: 70px;
+ }
+
+ .header p{
+    padding-top: 14px;
+    padding-left: 7px;
+    font-size: 31px;
+    text-align: left;
+    font: rgb(248, 249, 250);
+    color: white;
+    font-family: Verdana, Geneva, Tahoma, sans-serif
+    
+ }
+ 
+ .contentbody{
+    padding: 0px  0px 0px 25px;
+ width: 95%;
+ font-size: 17px;
+ text-align: center;
+ font-weight: 200;
+ justify-content: left;
+ font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+ font: bold;
+ 
+
+ }
+
+ .footer p {
+    padding-left: 12px;
+     padding-top: 8px;
+        background-color: rgb(187, 187, 228);
+    color: white;
+    font-size: 19px;
+    height: 34px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif
+
+      
+}
+
+.card{
+
+}
+
+.photo
+
+
+ 
+
+
+
+
+
+
+
+
+
