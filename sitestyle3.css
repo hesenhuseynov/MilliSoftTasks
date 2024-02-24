@@ -1,0 +1,502 @@
+
+html,body{
+    margin: 0;
+    padding: 0;
+}
+
+.headerimg{
+    position: relative;
+    height: 27rem;
+    /*background: linear-gradient(90deg, rgba(255, 255, 255, 0.1) 0%, rgba(255, 255, 255, 0.1) 100%);*/
+    background-image:url("cssprohectpoctures/bg-masthead.jpg") ;
+    background-size: cover;
+    background-position: center;
+    text-align: center;
+        padding: 50px 0;
+    width: 100%;
+}
+
+.headertxt{
+    position: absolute;
+    top: 120px;
+    left: 340px;
+    z-index: 40;
+    align-items: center;
+    text-align: center;
+}
+.header h1{
+    align-content: center;
+    text-align: center;
+    font-size: 4.2rem;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+
+
+}
+.header h3{
+    font-family: Tahoma;
+    margin-top: -30px;
+    font-size: 1;
+    text-align: center;
+}
+.header button {
+    margin-top: 9px;
+  width: 180px;
+    height: 64px;
+    background-color: #1D809F;
+    color: white;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 15px;
+    border: 1px solid  #1D809F ;
+    border-radius: 5px;
+    cursor: pointer;
+
+}
+ .header button:hover{
+     opacity: 0.7;
+     transition: 1s;
+ }
+
+ .section1{
+     width: auto;
+      padding: 90px;
+     background-color: #F8F9FA;
+     text-align: center;
+     align-items: center;
+     justify-content: center;
+ }
+ .section1 p{
+     font-size: 19px;
+     opacity:  0.5;
+ }
+
+ .section1 a{
+   font-size: 19px;
+     color: #1D809F;
+ }
+
+ .section1 button{
+     margin-top: 20px;
+     width: 180px;
+     height: 64px;
+     background-color: #212529;
+     color: white;
+     font-family:Verdana, Geneva, Tahoma, sans-serif    ;
+     font-size: 15px;
+    border-radius: 5px;
+     cursor: pointer;
+ }
+
+ .section1 button:hover{
+     opacity: 0.8;
+     transition: 1s;
+ }
+
+
+ .section2{
+
+     width: auto;
+     background-color: #1d809f;
+     text-align: center;
+     padding: 60px 0;
+
+ }
+ .section2 p{
+     font-size: 15px;
+     color: #d8b807;
+     font-weight: bold;
+     opacity: 1.4;
+     font-family: 'Open Sans', sans-serif;
+
+
+ }
+
+ .section2 h1{
+     margin-top:-17px;
+     color: white;
+     font-family: Verdana, Geneva, Tahoma, sans-serif;
+
+
+
+ }
+
+.iconssection {
+    width: 100%;
+    text-align: center;
+    margin-top: 30px;
+
+}
+
+
+
+.cards{
+    margin-left: 600px;
+}
+
+.card1,card2,card3,card4{
+    display: inline-block;
+}
+
+.cardheader1  {
+    display: inline-block;
+     margin-left: -50px;
+    width:8rem;
+    height: 5rem;
+    border-radius: 6rem;
+    background-color: white;
+    padding-top: 41px ;
+
+}
+
+.cardtext1{
+    margin-right: 40px;
+    margin-top: -20px;
+    justify-content: center;
+    color: white;
+    font-size: 27px;
+    width: auto;
+    height: auto;
+}
+.cardtext1 p{
+    margin-top: -20px ;
+    color: rgba(255, 255, 255, 0.7);
+
+}
+
+.card2{
+    display: inline-block;
+}
+.cardhead2{
+    margin-left: 60px;
+    width:8rem;
+    height: 5rem;
+    border-radius: 6rem;
+    background-color: white;
+    padding-top: 41px ;
+}
+
+.cardtext2{
+    margin-right: 40px;
+    margin-top: -20px;
+    justify-content: center;
+    color: white;
+    font-size: 27px;
+    width: auto;
+    height: auto;
+
+}
+
+.cardtext2 p{
+    margin-top: -20px ;
+    color: rgba(255, 255, 255, 0.7);
+}
+
+.card3{
+    display: inline-block;
+}
+
+.cardhead3{
+    margin-left: 60px;
+    width:8rem;
+    height: 5rem;
+    border-radius: 6rem;
+    background-color: white;
+    padding-top: 41px ;
+}
+.cardtext3{
+    margin-right: 40px;
+    margin-top: -20px;
+    justify-content: center;
+    color: white;
+    font-size: 27px;
+    width: auto;
+    height: auto;
+
+}
+.cardtext3 p{
+    margin-top: -20px ;
+    color: rgba(255, 255, 255, 0.7);
+}
+ .card4{
+     display: inline-block;
+ }
+.cardhead4{
+    margin-left:39px;
+    width:8rem;
+    height: 5rem;
+    border-radius: 6rem;
+    background-color: white;
+    padding-top: 41px ;
+}
+.cardtext4{
+    margin-right: 40px;
+    margin-top: -20px;
+    justify-content: center;
+    color: white;
+    font-size: 27px;
+    width: auto;
+    height: auto;
+
+}
+.cardtext4 p{
+    margin-top: -20px ;
+    color: rgba(255, 255, 255, 0.7);
+}
+
+.section4{
+    width: auto;
+    padding: 15rem 0;
+    background: url("cssprohectpoctures/bg-callout.jpg");
+    background-size: cover;
+    text-align: center;
+}
+.section4 h2{
+    font-size: 3.1rem;
+    font-weight: 700;
+    display: block ;
+    opacity: 0.8;
+    font-family: 'Open Sans', sans-serif;
+}
+.section4 button{
+    padding: 1.34rem 2.5rem;
+    background-color: #1D809F;
+    border: 1px solid  #1D809F;
+     color: white;
+     border-radius: 6px;
+    cursor: pointer;
+ }
+
+.section4 button:hover{
+    opacity: 0.7;
+    transition: 0.6s;
+}
+.section-portfolio {
+    text-align: center !important;
+    padding-top: 7.9rem;
+    padding-bottom: 7.5rem;
+}
+.section-portfolio h3{
+     color: rgb(236,184,7);
+    font-size: 1rem;
+    text-transform: uppercase;
+
+}
+
+
+.staionary{
+    display: inline-block;
+    width: 46%;
+    height: 22rem;
+    object-fit: cover;
+    background: url("cssprohectpoctures/portfolio-1.jpg");
+    position:relative;
+    clip-path: inset(0);
+    transition: 1s;
+    justify-content: center;
+    justify-items: center;
+
+}
+
+.fon{
+    background-color: rgb(29,128,159,0.2);
+    width: 100%;
+    height: 100%;
+    position: absolute;
+     display: flex;
+    align-items: center;
+      justify-content: flex-start;
+   cursor: pointer;
+}
+
+.fon-content{
+   margin-top: 190px;
+    justify-content: right;
+    text-align: left;
+    margin-left: 60px;
+
+}
+
+.section-portfolio h2{
+    text-transform: uppercase;
+    font-size: 0.8rem;
+    color: #fff;
+    font-weight: bold;
+    margin-left: 13%;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+}
+
+.section-portfolio p{
+    margin-left: 50px;
+    color: #fff;
+    font-weight: 300;
+    font-size: 1rem;
+    margin-bottom: 0 !important;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.new-line{
+    display: block;
+}
+
+.fon:hover{
+    background-color: rgb(29,128,159,0.7);
+    transition: 1s ;
+}
+.staionary:hover{
+    clip-path: inset(11%);
+}
+
+.IceCream{
+    margin: 0;
+    display: inline-block;
+    width:46%;
+     height: 22rem;
+    background:url("cssprohectpoctures/portfolio-2.jpg");
+    object-fit: cover;
+    position:relative;
+    transition: 1s;
+    justify-content: center;
+    justify-items: center;
+    clip-path: inset(0);
+
+}
+
+.fon2{
+    background-color: rgb(29,128,159,0.2);
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    cursor: pointer;
+}
+
+.fon2-content{
+    margin-top: 190px;
+    justify-content: right;
+    text-align: left;
+    margin-left: 60px;
+
+}
+ div{
+     margin: 0;
+     padding: 0;
+ }
+.fon2:hover{
+    background-color: rgb(29,128,159,0.7);
+    transition: 1s ;
+}
+
+.IceCream:hover{
+    clip-path: inset(11%);
+}
+
+.Strawberries{
+    background: url("cssprohectpoctures/portfolio-3.jpg");
+    display: inline-block;
+    width:46%;
+    height: 22rem;
+    object-fit: cover;
+    position:relative;
+    transition: 1s;
+    justify-content: center;
+    justify-items: center;
+    clip-path: inset(0);
+}
+.fon2:hover{
+    background-color: rgb(29,128,159,0.7);
+    transition: 1s ;
+}
+
+.Strawberries:hover{
+    clip-path: inset(11%);
+}
+
+.Workspace{
+    background: url("cssprohectpoctures/portfolio-4.jpg");
+    display: inline-block;
+    width:46%;
+    height: 22rem;
+    object-fit: cover;
+    position:relative;
+    transition: 1s;
+    justify-content: center;
+    justify-items: center;
+    clip-path: inset(0);
+
+}
+
+.Workspace:hover{
+    clip-path: inset(11%);
+}
+.staionary,.IceCream,.Strawberries,.Workspace{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.section6{
+    padding: 5rem 5rem;
+    background-color: #1D809F;
+    text-align: center;
+}
+
+.section6 h1{
+    color: white;
+
+}
+.button1 ,.button2 {
+   padding:1.25rem 2.5rem;
+    background-color: #F8F9FA;
+    color: black;
+    border-radius: 7px;
+    cursor: pointer;
+
+}
+ button:hover{
+     opacity: 0.7;
+     transition: 1s;
+ }
+.button2{
+    margin-left: 5px;
+    background-color: black;
+    color: white;
+}
+.footer{
+    padding: 7rem 5rem;
+    text-align: center;
+
+}
+.footer span{
+    margin-left: 15px;
+    display: inline-block;
+    background-color: #155d74;
+     padding: 30px 30px;
+    text-align: center;
+    border-radius: 50%;
+     box-shadow: 0 3px 3px 0 rgb(0 0 0 / 10%);
+}
+
+.footer i{
+    display: block;
+    font-size: 1.5rem;
+    font-style: normal;
+    font-weight: 400;
+    font-variant: normal;
+    line-height: 1;
+    color: white;
+cursor: pointer;
+
+}
+
+.footer p{
+    margin-top: 40px;
+    color: #6c757d !important;
+    margin-bottom: 0 !important;
+    font-size: 0.875em;
+}
+
+
+
+
+

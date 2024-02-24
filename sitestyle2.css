@@ -1,0 +1,159 @@
+
+html,body{
+    margin: 0;
+    padding: 0;
+}
+.header{
+    width: 95%;
+    color: #ffffff;
+    background-color: #a79f94;
+    height: 420px;
+    text-align: center;
+    padding: 30px ;
+    font-size: larger;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    position: relative;
+    z-index: 1;
+
+}
+.container {
+    text-align: center;
+    position: relative;
+    z-index: 10;
+
+}
+
+.cards   {
+    display: inline-block;
+    margin: 80px;
+    width: 200px;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.2);
+   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+
+
+.card-header img {
+    width: 230px;
+    height: 320px;
+    border-radius: 27px;
+    position: relative;
+    border:thick double white;
+    z-index: 10;
+    object-fit: cover;
+
+
+}
+
+.card1{
+    position: absolute;
+    top: 197px;
+    left: 30px;
+    margin-left: 55px;
+
+}
+.card1  p:nth-child(1){
+     font-weight: bold;
+    font-size: 18px ;
+
+}
+.card1  p:nth-child(2){
+    font-weight:492;
+    font-size: 18px ;
+
+}
+
+.card2{
+    position: absolute;
+    top: 280px;
+    left:389px ;
+
+}
+.card2  p:nth-child(1){
+    font-weight: bold;
+    font-size: 18px ;
+
+}
+.card2  p:nth-child(2){
+    font-weight:492;
+    font-size: 18px ;
+
+}
+
+.card3{
+    position: absolute;
+    top: 197px;
+    left: 630px;
+    margin-left: 55px;
+}
+.card3  p:nth-child(1){
+    font-weight: bold;
+    font-size: 18px ;
+
+
+}
+.card3  p:nth-child(2){
+    font-weight:492;
+    font-size: 18px ;
+
+}
+
+.card4{
+    position: absolute;
+    top: 276px;
+    left: 930px;
+    margin-left: 55px;
+}
+.card4  p:nth-child(1){
+    font-weight: bold;
+    font-size: 18px ;
+
+
+}
+.card4  p:nth-child(2){
+    font-weight:492;
+    font-size: 18px ;
+
+}
+
+.Imagesfromfreepik{
+  margin-top: 90px;
+    font-weight: 540;
+    font-size: 1rem;
+    font-family:'Open Sans', sans-serif ;
+    margin-bottom: 50px;
+
+}
+
+
+.card-body {
+    padding: 10px;
+}
+
+
+.footer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100px;
+    background-color: rgb(51,51,51);
+    color: #ffffff;
+    padding: 0;
+    margin: 0 auto;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 13px;
+
+}
+.footer a {
+    color: rgb(173,204,233);
+    opacity: inherit;
+}
+
+
+
+
+
+
+
+
