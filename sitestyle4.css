@@ -1,0 +1,525 @@
+
+
+*{
+
+  margin: 0;
+  padding: 0;
+}
+
+
+
+.main {
+    width: 100%;
+    height: 560px;
+      display: flex;
+    flex-direction: row;
+    gap: 20px;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+ 
+.Item{
+    width: 31%;
+    height: 140px;
+    margin-left: 2px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  
+}
+
+
+.Item:nth-child(1){
+    background-color: yellow;
+
+
+}
+.Item:nth-child(2){
+    background-color:black;
+
+
+}
+.Item:nth-child(3){
+    background-color:green;
+
+
+}
+
+.Item:nth-child(4){
+    background-color:blueviolet;
+
+
+}
+
+.Item:nth-child(5){
+    background-color:brown;
+
+
+}
+.Item:nth-child(6){
+    background-color:deeppink;
+
+
+}
+
+
+
+
+.section2{
+    width: 100%;
+    height: 640px;
+
+}
+
+.firstline{
+   width: 100%;
+   height: 98px;
+    display: flex; 
+    flex-direction: row;
+     justify-content: flex-start;
+    
+}
+
+.firstline div{
+    width: 21%;
+    height: 98px;
+     display: flex;
+     justify-content: center;
+     align-items: center;
+   
+}
+
+.firstline div:nth-child(1){
+    background-color: yellow;
+
+}
+.firstline div:nth-child(2){
+    background-color: blue;
+
+}
+
+.firstline div:nth-child(3){
+    background-color: rgb(0, 255, 21);
+
+}
+
+.secondline{
+     width: 100%;
+   height: 98px;
+     margin-top: 12px;
+        display: flex; 
+        justify-content: right;
+
+}
+
+.secondline div{
+       width: 21%;
+    height: 98px;
+    display: flex;
+     justify-content: center;
+     align-items: center;
+       
+
+}
+
+.secondline div:nth-child(1)
+{
+    background-color: brown;
+}
+
+.secondline div:nth-child(2)
+{
+    background-color: rgb(155, 42, 165);
+}
+
+.secondline div:nth-child(3)
+{
+    background-color: rgb(52, 226, 203);
+}
+
+.thirdline{
+         width: 100%;
+   height: 98px;
+     margin-top: 12px;
+        display: flex; 
+        justify-content: space-between;
+
+}
+
+.thirdline div{
+        width: 21%;
+    height: 98px;
+    display: flex;
+     justify-content: center;
+     align-items: center;
+}
+
+.thirdline div:nth-child(1){
+    background-color: blue;
+}
+
+.thirdline div:nth-child(2){
+    background-color: rgba(0, 255, 170, 0.432);
+}
+
+.thirdline div:nth-child(3){
+    background-color: rgb(217, 255, 0);
+}
+
+
+
+
+.fourthline{     
+      width: 100%;
+   height: 98px;
+     margin-top: 12px;
+        display: flex; 
+        justify-content: space-around;
+}
+
+.fourthline div{
+      width: 21%;
+    height: 98px;
+    display: flex;
+     justify-content: space-around;
+     align-items: center;
+}
+
+
+.fourthline :nth-child(1){
+    background-color: brown;
+}
+
+
+.fourthline :nth-child(2){
+    background-color: rgb(165, 42, 128);
+}
+
+
+.fourthline :nth-child(3){
+    background-color: rgb(142, 165, 42);
+}
+
+
+
+.section3{
+     width: 100%;
+    height: 640px;
+    display: flex;
+     flex-wrap: wrap;
+     justify-content: center;
+         
+
+}
+
+ .section3 div{
+    height: 400px;
+    width:18% ;
+    margin-left: 8px;
+    background-color: rgb(192, 179, 179);
+
+ }
+
+
+
+.firstrow{
+    background-color: aliceblue;
+         width: 100%;
+   height: 98px;
+     margin-top: 12px;
+        display: flex; 
+        flex-direction: column;
+        justify-content: space-between;
+        align-items:center ;
+        
+}
+
+.firstrow div{
+     width: 40%;
+    height: 65px;
+    display: flex;
+     justify-content:center;
+     align-items:center;
+}
+
+.firstrow div:nth-child(1){
+    background-color: red;
+}
+
+
+.firstrow div:nth-child(2){
+    background-color: rgb(0, 83, 131);
+}
+
+.firstrow div:nth-child(3){
+    background-color: rgb(234, 0, 255);
+}
+
+.secondrow{
+    background-color: aliceblue;
+         width: 100%;
+   height: 98px;
+     margin-top: 12px;
+        display: flex; 
+        flex-direction: column;
+        justify-content: space-around;
+        align-items: flex-end;
+        
+}
+
+
+.secondrow  div{
+ width: 40%;
+    height: 65px;
+    display: flex;
+     justify-content:center;
+     align-items:center;
+}
+
+
+.secondrow div:nth-child(1){
+    background-color: red;
+}
+
+
+.secondrow div:nth-child(2){
+    background-color: rgb(0, 83, 131);
+}
+
+.secondrow div:nth-child(3){
+    background-color: rgb(234, 0, 255);
+}
+
+
+
+
+.thirdrow{
+    background-color: aliceblue;
+         width: 100%;
+   height: 98px;
+     margin-top: 12px;
+        display: flex; 
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        
+}
+
+
+.thirdrow  div{
+ width: 40%;
+    height: 65px;
+    display: flex;
+     justify-content:center;
+     align-items:center;
+}
+.thirdrow div:nth-child(1){
+    background-color: red;
+}
+
+
+.thirdrow div:nth-child(2){
+    background-color: rgb(0, 83, 131);
+}
+
+.thirdrow div:nth-child(3){
+    background-color: rgb(234, 0, 255);
+}
+
+.fourthrow{
+    background-color: aliceblue;
+         width: 100%;
+   height: 98px;
+     margin-top: 12px;
+        display: flex; 
+        flex-wrap: wrap-reverse;
+        flex-direction: column;
+        justify-content: space-evenly;
+        align-items: end;
+
+             
+
+}
+
+
+.fourthrow  div{
+ width: 40%;
+    height: 65px;
+    display: flex;
+     justify-content:center;
+     align-items:center;
+
+}
+.fourthrow div:nth-child(1){
+    background-color: red;
+}
+
+
+.fourthrow div:nth-child(2){
+    background-color: rgb(0, 83, 131);
+}
+
+.fourthrow div:nth-child(3){
+    background-color: rgb(234, 0, 255);
+}
+
+.fiverow{
+    background-color: aliceblue;
+         width: 100%;
+   height: 98px;
+     margin-top: 12px;
+        display: flex; 
+        flex-direction: column;
+        justify-content: flex-end;
+        align-items: flex-start;
+
+             
+
+}
+
+
+.fiverow  div{
+ width: 40%;
+    height: 65px;
+    display: flex;
+     justify-content:center;
+     align-items:center;
+
+}
+.fiverow div:nth-child(1){
+    background-color: red;
+}
+
+
+.fiverow div:nth-child(2){
+    background-color: rgb(0, 83, 131);
+}
+
+.fiverow div:nth-child(3){
+    background-color: rgb(234, 0, 255);
+}
+
+.section4{
+    width: 50%;
+    margin: 0 auto;
+    height: 350px;
+    display: flex;
+    
+
+}
+
+.section3firstline{
+      width:49%;
+      height: 280px;
+      background-color: red;
+
+}
+
+
+
+.section3secondline{
+ width: 25%;
+ height: 280px;
+    display: flex;
+    flex-wrap: wrap; 
+   
+
+
+}
+
+.section3secondline div{
+    width: 50%;
+    height: 50%;
+    box-sizing: border-box; 
+    
+}
+
+.section3secondline div:nth-child(1){
+    background-color: yellow;
+}
+.section3secondline div:nth-child(2){
+    background-color: grey;
+}
+.section3secondline div:nth-child(3){
+    background-color: blue;
+
+}
+.section3secondline div:nth-child(4){
+    background-color: rgb(45, 110, 91);
+
+    
+}
+
+.section5{
+    width: 60%;
+    margin: 0 auto;
+    height: 460px;
+       display: flex;
+       flex-direction: column;
+       flex-wrap: wrap;
+        
+    
+
+}
+
+.line1{
+    margin: 0 auto;
+    width: 80%;
+    height: 150px;
+    display: flex;
+    flex-wrap: wrap;
+     
+}
+.line1 div{
+    width: 30%;
+height: 150px;
+}
+.line1 div:nth-child(1) {
+       flex-basis: 60%;
+    background-color: red; /* İlk div */
+}
+
+.line1 div:nth-child(2) {
+           flex-basis: 20%;
+    background-color: blue; /* İkinci div */
+}
+
+.line1  div:nth-child(3) {
+               flex-basis: 20%;
+
+    background-color: green; /* Üçüncü div */
+}
+
+.line2 {
+        margin: 0 auto;
+    width: 80%;
+    height: 150px;
+    display: flex;
+    flex-wrap: wrap;
+     
+}
+.line2 div{
+    width: 30%;
+    height: 150px;
+}
+.line2 div:nth-child(1) {
+       flex-basis: 60%;
+    background-color: rgba(3, 20, 255, 0.219); /* İlk div */
+}
+
+.line2 div:nth-child(2) {
+           flex-basis: 20%;
+    background-color: rgb(111, 0, 255); /* İkinci div */
+}
+
+.line2  div:nth-child(3) {
+               flex-basis: 20%;
+
+    background-color: rgb(104, 101, 88); /* Üçüncü div */
+}
+
+
+
+
