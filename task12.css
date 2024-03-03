@@ -1,0 +1,896 @@
+
+*{
+    margin:0;
+    padding: 0;
+     box-sizing: border-box;
+}
+
+.header{
+    width: 100%;
+    height: 88px;
+    display: flex;
+    justify-content: flex-start;
+}
+.header h3 a{
+    
+    margin-top: 15px;
+    margin-left: 12px;
+    text-decoration: none;
+    font-size: 1.9rem;
+    color:rgb(254, 126, 201);
+    font-weight: 900;
+    line-height: 1.2;
+  font-family: "Oswald", sans-serif;
+}
+
+.header-section{
+    height: 790px;
+    width: auto;
+    display: flex;
+    
+}
+
+.header-container{
+    padding: 1.3rem 0;
+    display:flex;
+    flex-wrap: wrap;
+    height: 610px;
+    width:100%;
+
+}
+.header-container-left{
+    display: flex;
+    align-items: center;
+    text-align: center;
+    width: 50%;
+
+}
+.header-container-left-text{
+ 
+ 
+}
+.header-container-left h2{
+    color:rgb(13, 98, 226);
+    font-weight:1200;
+    font-size: 3.9rem;
+}
+.header-container-left  h3{
+    margin-top: -170px;
+    display: blox;
+    text-align: center;
+    margin: 20px 30px 65px;
+    font-size:1.875rem;
+}
+
+
+.header-container-right{
+    display: inline-block;
+    height: 690px;
+    width: 48%;
+    background-image: url(https://images03.nicepage.com/c461c07a441a5d220e8feb1a/1928ac4fdeea5ee28a624ce0/firstdayofschoolbacktoschoolphotoideasphotographyhowtotakegreatpictures13.jpg);
+    background-position: 50% 50%;
+}
+
+
+
+.clearfix-row{
+    width: 100%;
+    height: 350px;
+    display:flex;
+    flex-wrap: wrap;
+
+}
+
+.container-clearfix{
+    width: 25%;
+    
+}
+
+.clearfixitem{
+    padding-left: 99px;
+    width: 100%;
+    height: 349px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+
+}
+
+.clearfixitem svg{
+    margin-top: 37px;
+     width: 86px;
+     height: 86px;
+}
+.clearfixitem h2{
+    display: flex;
+    color: white;
+    font-weight: 700;
+    line-height: 1.2;
+    font-size: 2.1rem;
+        font-family: "Oswald",sans-serif;
+        margin-top: 15px;
+        margin-left: -14px;
+}
+
+
+
+.clearfixitem svg path {
+    fill:white;
+}
+
+
+.clrxitem1{
+    background-color: rgb(56, 196, 193);
+
+}
+.clrxitem2 {
+        background-color: rgb(254, 202, 2);
+
+}
+
+.clrxitem3 {
+        background-color: rgb(254, 126, 201);
+
+}
+
+.clrxitem4 {
+        background-color: rgb(72, 141, 244);
+
+}
+
+
+
+.kidsloved{
+    background-color: #f2f2f2;
+}
+
+.kidslovedcontainer{
+
+    text-align: center;
+    padding: 60px 0 ;
+    margin: 0 auto;
+    width: 1024px;
+
+}
+
+.kidslovedcontainer h1{
+  font-family: "Oswald", sans-serif;
+    font-size: 3.75rem;
+     line-height: 1.1;
+     font-weight: 700;
+     color: #488df4 !important;
+}
+.kidslovedcontainer p{
+    text-align: center;
+    font-size: 1.25rem;
+    margin: 35px 60px;
+    font-weight: 400;
+    line-height: 1.7;
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(88, 67, 75);
+}
+.blackborder{
+    width: 69px;
+    height: 2px;
+    background-color: black;
+    border: 3px solid black;
+    margin: 30px auto;
+
+}
+.aboutus{
+    width: 100%;
+    height: 1025px;
+
+}
+.container-aboutus{
+    text-align: center;
+}
+.container-aboutus h2{
+    color: #808080;
+    line-height: 1.2;
+    font-size: 1.5rem;
+    letter-spacing: 1px;
+    margin: 13px 0 20px;
+      font-family: "Oswald", sans-serif;
+
+    font-weight: 300;
+}
+.container-aboutus h4{
+    font-size: 3rem;
+    margin: 13px 0 20px;
+    font-weight: 700;
+    line-height: 1.2;
+  font-family: "Oswald", sans-serif;
+
+
+}
+
+.body-aboutus{
+    width: 100%;
+    height: 699px;
+    margin:35px 0 80px auto;
+}
+.row-aboutus{
+    width: 100%;
+    height: 798px;
+    display: flex;
+    flex-direction: row;
+
+}
+.header-aboutus{
+    margin: 59px 0 0;
+}
+
+.row-left{
+    width: 50%;
+}
+
+
+.row-right{
+    width: 50%;
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+
+}
+
+
+.row-right-container{
+    display: flex;
+        width: 100%;
+        flex-direction: row ;
+        flex-wrap: wrap;
+
+}
+
+.card{
+    background-clip: padding-box;
+    background-color:#ebfcfc;
+    display: flex;
+    flex-direction: column;
+    height: 387px;
+    margin: 0 5px;
+     width: 44%;
+}
+.card span{
+    display: block;
+    margin-left:170px;
+    margin-top: 47px;
+    border: 1px solid;
+    border-radius: 100%;
+    background-color:rgb(56, 196, 193);
+      width: 80px;
+    height: 80px;
+   
+}
+.card svg{
+  
+    width: 80px;
+    height: 80px;
+}
+.card svg path {
+    fill: white; /* Dolum rengini beyaza ayarlar */
+}
+.card h4{
+    line-height: 1.2;
+margin: 27px 25px 0 auto  ;
+  font-size: 1.5rem;
+    letter-spacing: 1px;
+    font-weight: 300;
+  font-family: "Oswald", sans-serif;
+}
+.card p{
+    font-size: 0.875rem;
+    font-style: italic;
+    margin: 20px 0 0 auto;
+    line-height: 1.8;
+    font-weight: 400;
+    
+}
+.card a{
+  text-transform: uppercase;
+  font-weight: 600;
+  margin: 57px 28px 15px auto;
+  text-decoration: none;
+  color:rgb(61, 176, 178);
+    
+}
+.card a:hover{
+    opacity: 0.9;
+}
+
+.card2 span{
+    background-color: rgb(254, 126, 201);
+}
+.card2{
+        background-color: rgb(255, 242, 250);
+
+}
+.card2 a{
+      color: rgb(254, 126, 201);
+
+}
+.card3 {
+    background:no-repeat;
+    background-image: url(https://images03.nicepage.com/c461c07a441a5d220e8feb1a/d3bfc71acd69527589c31f1b/d.jpg);
+    background-position: 50% 50%;
+   background-size: cover;
+}
+.card4{
+       background:no-repeat;
+    background-image: url(https://images03.nicepage.com/c461c07a441a5d220e8feb1a/bf90812ae3b351c4942c0350/dfv.jpg);
+    background-position: 50% 50%;
+   background-size: cover;
+}
+
+.keyfeatures{
+    width: 100%;
+    height: 590px;
+    background-color: rgb(254, 202, 2);
+}
+
+.keyfeatures-container{
+    height: auto;
+    padding: 20px  0;
+}
+
+.keyfeatures-header{
+    margin-top: 67px;
+    text-align: center;
+}
+.keyfeatures-header h4{
+   line-height: 1.2;
+   color: white;
+  font-size: 1.5rem;
+    letter-spacing: 1px;
+    font-weight: 300;
+  font-family: "Oswald", sans-serif;
+margin-bottom: 12px; 
+
+}
+.keyfeatures-header h2{
+  font-family: "Oswald", sans-serif;
+    font-size: 2rem;
+     line-height: 1.1;
+     font-weight: 700;
+     color: white;
+}
+
+.keyfeatures-row{
+    width: 98%;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: center;
+    margin-top: 20px;
+    
+}
+.keyfeaturesitem {
+    height: 312px;
+    width: 262px;
+   background-color: white;
+   margin: 14px;
+   text-align: center;
+}
+.keyfeaturesitem svg{
+    margin-top: 39px;
+    width: 60px;
+    height: 60px;
+    border-radius: 100%;
+}
+.keyfeaturesitem  h5{
+    color:rgb(254, 126, 201);
+    font-weight: 500;
+    width: 203px;
+    margin: 27px auto 0;
+    font-size: 1.25rem;
+    line-height: 1.2;
+        font-family: "Oswald",sans-serif;
+}
+.keyfeaturesitem p{
+    font-weight: 400;
+    line-height: 1.7;
+    font-style: italic;
+    font-size: 1rem;
+    width: 203px;
+    margin:26px auto 30px;
+
+}
+
+.kyft2 h5{
+    color:rgb(72, 141, 244);
+} 
+
+.kyft3 h5{
+    color:rgb(56, 196, 193);
+}
+.kyft4 h5{
+    color:rgb(254, 202, 2);
+}
+
+.enrol{
+    width: 100%;
+    height: 415px;
+    background-color: rgb(242, 242, 242);
+}
+
+
+.enrol-header h1{
+    font-weight: 700;
+    line-height: 1.1;
+    font-size: 3.75rem;
+    padding:61px 0 ;
+    margin-left: 54px;
+    font-family: "Oswald",sans-serif;;
+    opacity: 0.7;
+    
+}
+
+.enroll-body{
+   width: 100%;
+   display: flex;
+   flex-direction: row;
+   flex-wrap: wrap;
+
+
+
+}
+
+.enrol-body p{
+    display: flex;
+    font-weight: 400;
+    line-height: 1.7;
+    font-size: 1.125rem;
+    font-family: 'Open Sans',sans-serif;       
+     opacity: 0.7;
+margin: 8px 0;
+text-align: left;
+}
+
+.enrol-bodyleft{
+    display: inline-block;
+    width: 46%;
+        text-align: left;
+        margin-left: 6px;
+        padding-left:20px ;
+        padding-right:30px;
+
+}
+
+.enrol-bodyright{
+        display: inline-block;
+        text-align: left;
+  width: 46%;
+          margin-left: 15px;
+        padding-left:20px ;
+        padding-right:30px;
+}
+
+.colorful{
+    width: 100%;
+    height: 600px;
+    background-color: rgb(56, 196, 193);
+    display: flex;
+}
+
+.colorful-row{
+    width:94%;
+    display: flex;
+    flex-direction: row;
+     align-items: center;
+     justify-content: center;
+     margin: 5px 43px;
+}
+
+.colorful-card{
+    width: 383px;
+    height:487px;
+    margin:0 6px;
+    display: flex;
+    flex-direction: column;
+
+    
+}
+
+.clfcard1{
+    background-image: url(https://images03.nicepage.com/c461c07a441a5d220e8feb1a/ca781a3c8fdc51668d3016a3/c4f5abfbf6e1318f547819911d40eb34.jpg);
+    background-position: 0  0 ;
+    background-size: cover;
+}
+
+.clfcard2{
+    background-color: white;
+    display: flex;
+}
+.clfcard2-container{
+    width: 88%;
+    margin:24px  auto 0;
+    display: flex;
+   text-align: left;
+    flex-direction: column;
+    
+}
+.clfcard2 h3{
+    margin-top: 25px ;
+    margin-left: 15px;
+    font-weight: 700;
+    line-height: 1.2;
+    font-size:1.975rem;
+    font-family: "Oswald",sans-serif;
+    color:#42434b;
+}
+
+.clfcard2 p{
+    margin-top: 30px;
+    text-align: left;
+    font-size: 1.125rem;
+    line-height: 1.7;
+    font-weight: 400;
+    color: #42434b;
+    font-family: 'Open Sans',sans-serif;
+    opacity: 0.8;
+}
+
+
+
+.clfcard3{
+    background-image: url(https://images03.nicepage.com/c461c07a441a5d220e8feb1a/45abe08f6d4a5feb8226c2d3/bf76ae7aee2f9e595a6c9f6bdefc52a2.jpg);
+    background-position: 50%  50% ;
+    background-size: cover;
+}
+
+.preschool{
+    width: 100%;
+    height: 973px;
+}
+
+.preschool-container{
+    width: 96%;
+    margin: 0 5px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.preschool-header{
+    padding: 50px 0;
+    text-align: center;
+
+    
+}
+.preschool-header h4{
+      font-weight: 300;
+    line-height: 1.1;
+    font-size: 1.75rem;
+    font-family: "Oswald",sans-serif;;
+    opacity: 0.7;
+}
+
+.preschool-header h2{
+    margin-top: 12px;
+    font-size: 2.25rem;
+    line-height: 1.2;
+    font-weight: 700;
+    color: black;
+    opacity: 0.8;
+    font-family: "Oswald",sans-serif;;
+}
+
+.preschool-body{
+ display: flex;
+ flex-direction: row;
+ justify-content: center;
+}
+
+.preschoolitem{
+    margin-left: 5px;
+    display: flex;
+    width: 374px;
+    height: 627px;
+}
+
+.prsc1{
+    display: flex;
+    flex: column;
+    flex-wrap: wrap;
+
+}
+
+
+.preschoolitem prsc1{
+    display: flex;
+    flex-direction: column;
+}
+
+.funnyhappy{
+    margin: 15px;
+}
+.funnyhappy h5{
+    text-align: end;
+    font-size: 1.4rem;
+    line-height: 1.2;
+    font-weight: 650;
+    font-family: "Oswald",sans-serif;
+}
+.funnyhappy p{
+    text-align: right     ;
+    margin-top: 14px;
+    font-size: 1.1rem;
+        font-family: 'Open Sans',sans-serif;
+font-weight: 400;
+line-height: 1.7;
+opacity: 0.8;
+font-style: italic;
+    color: #42434b;
+
+
+}
+.prsc2 {
+    background-image: url(https://images03.nicepage.com/c461c07a441a5d220e8feb1a/25653f39d33452fc8389e6c0/561dd25d5211ef5968fea940105750c6.jpg);
+    background-position: cover;
+    background-position: 40% 40%;
+    background-repeat: no-repeat;
+}
+
+.prsc2 img{
+    width: 100% !important ;
+    height: 430px;
+    object-fit: contain;
+    display: block;
+
+    
+}
+.funnyhappy2{
+    margin: 15px;
+}
+.funnyhappy2 h5{
+    text-align: start;
+    font-size: 1.4rem;
+    line-height: 1.2;
+    font-weight: 650;
+    font-family: "Oswald",sans-serif;
+}
+.funnyhappy2 p{
+    text-align: left     ;
+    margin-top: 14px;
+    font-size: 1.1rem;
+        font-family: 'Open Sans',sans-serif;
+font-weight: 400;
+line-height: 1.7;
+opacity: 0.8;
+font-style: italic;
+    color: #42434b;
+
+
+}
+
+
+.facility{
+    width: 100%;
+    height: 900px;
+        background-color: rgb(56, 196, 193);
+}
+
+.container-facility{
+    width: 96%;
+    margin: 0 5px;
+   
+}
+
+.header-facility{
+    padding: 50px 0;
+    text-align: center;
+   
+}
+
+.header-facility h4{
+      font-weight: 300;
+    line-height: 1.1;
+    font-size: 1.75rem;
+    font-family: "Oswald",sans-serif;;
+    color: white;
+}
+
+.header-facility h2{
+    margin-top: 12px;
+    font-size: 2.25rem;
+    line-height: 1.2;
+    font-weight: 700;
+    color: white;
+    font-family: "Oswald",sans-serif;;
+}
+.body-facility{
+    display: flex;
+    justify-content: center;
+    width: 94%;
+    height: 599px;
+    margin-left: 55px;
+}
+
+.facility-left{
+    width: 49%;
+    background-image:url(https://images03.nicepage.com/c461c07a441a5d220e8feb1a/639687807b39575582358f6f/bf46f3252edb2d29641ccb332f377bc9.jpg);
+        background-position: 50% 7.08%;
+        background-size: cover;
+}
+
+.facility-right{
+    width: 49%;
+        background-color: white;
+        align-items: center;
+        text-align: center;
+         
+    }
+
+    .righttextcontent{
+        margin: 180px 0 0  50px;
+        width: 90%;
+        text-align: left    ;
+    }
+
+.facility-right h2{
+    font-weight: 700;
+    line-height: 1.2;
+    font-size: 2.25rem;
+        font-family: "Oswald",sans-serif;
+}
+
+.facility-right p{
+    margin-top: 18px;
+    font-size: 1.334rem;
+    font-family: 'Open Sans',sans-serif;
+font-weight: 400;
+line-height: 1.7;
+opacity: 0.8;
+    color: #42434b;
+}
+.facility-right a{
+    display: inline-block;
+      text-transform: uppercase;
+  font-weight: 600;
+  margin: 35px 0  auto;
+  text-decoration: none;
+  color:rgb(254, 126, 201);
+  opacity: 0.7;
+  letter-spacing: 2px;
+
+    
+}
+
+.facility-right a:hover{
+    opacity: 0.7;
+}
+
+.contactme{
+    width: 100%;
+    height: 319px;
+
+}
+
+.contactme-row{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+
+
+}
+
+.contactmeicon {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 20px;
+    height: 312px;
+    width: 262px;
+   background-color: white;
+   text-align: center;
+}
+
+.contactmeicon span{
+    display: block;
+    border: 1px solid;
+    border-radius: 100%;
+    background-color:rgb(56, 196, 193);
+      width: 70px;
+    height: 70px;
+   
+}
+.contactmeicon svg{
+    margin-top: 3px;
+    width: 72px;
+    height: 72px;
+    border-radius: 100%;
+}
+
+.con1 span{
+    background-color: rgb(254, 126, 201);
+}
+
+
+.contactmeicon svg path {
+    fill:white; 
+}
+
+.contactmeicon h6{
+    line-height: 1.2;
+    font-size: 0.876rem;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    font-weight: bold;
+        font-family: "Oswald",sans-serif;
+
+}
+
+
+.headline{
+    width: 100%;
+    background-color: rgb(254, 126, 201);
+    height: 309px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+
+}
+
+.headcontainer{
+    width: 92%;
+    margin-left: 69px   ;
+    display: flex;
+
+}
+.headlineitem1{
+   width: 31%;
+
+}
+.headlineitem1 h6{
+    color:white;
+    font-size:0.923rem ;
+    font-weight: 500;
+    margin-bottom: 12px;
+            font-family: "Oswald",sans-serif;
+
+}
+.headlineitem1 p{
+    color:rgb(253, 252, 252);
+    font-weight: 400;
+    line-height: 1.6;
+            font-family: "Oswald",sans-serif;
+
+
+}
+
+.socailmediaicons {
+    margin-top: 50px;
+    display: flex;
+    width: 98%;
+        align-items: center;
+    flex-direction: row;
+    justify-content: center;
+}
+
+
+.sociamediaiconcontainer{
+     display: flex;
+         align-items: center;
+         margin-top: 20px;
+        
+
+}
+
+
+.socialmediaicon svg{
+    width: 28px;
+    height: 28px;
+    border-radius: 100%;
+    margin: 7px;
+}
+
+
+.socialmediaicon svg path {
+    fill:white;
+}
+
